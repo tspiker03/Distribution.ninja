@@ -1,0 +1,18 @@
+# Ignore artifacts:
+node_modules
+.next
+coverage
+dist
+build
+
+# Ignore lock files:
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore environment files:
+.env*
+!.env.example
+
+# Ignore specific config files if needed:
+# next.config.mjs

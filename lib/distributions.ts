@@ -134,7 +134,7 @@ export function getAllDistributionsSummary(): DistributionSummary[] {
                 continue; // Skip non-markdown files
             }
 
-            const slug = fileName.replace(/\.md$/, '');
+            // const slug = fileName.replace(/\.md$/, ''); // Removed unused variable declaration
             const fullPath = path.join(distributionsDirectory, fileName);
             const fileContents = fs.readFileSync(fullPath, 'utf8');
 

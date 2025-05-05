@@ -1,5 +1,4 @@
 import React from 'react';
-import Head from 'next/head'; // Or use metadata export
 
 // Optional: Define metadata for App Router
 export const metadata = {
